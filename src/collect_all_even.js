@@ -10,7 +10,7 @@ function collect_all_even(collection) {
     	}
  	return Arr;
  	for(var j=0;j<Arr.length;j++){
- 			parseInt(Arr[j]);
+ 			Number(Arr[j]);
  		}
  		return Arr;
 }
