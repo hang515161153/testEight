@@ -6,7 +6,7 @@ function collect_all_even(collection) {
  	var arr = collection.match(pattern);
  	var Arr = [];
  	for(var i in arr){
-      		 Arr.push(parseInt.arr[i]);
+      		 Arr.push(parseInt(arr[i]));
     	}
  	return Arr;
  	
