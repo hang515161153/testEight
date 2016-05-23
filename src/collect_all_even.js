@@ -9,6 +9,10 @@ function collect_all_even(collection) {
       		 Arr.push(arr[i]);
     	}
  	return Arr;
+ 	for(var j=0;j<Arr.length;j++){
+ 			parseInt(Arr[j]);
+ 		}
+ 		return Arr;
 }
 
 module.exports = collect_all_even;
