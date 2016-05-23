@@ -6,13 +6,11 @@ function collect_all_even(collection) {
  	var arr = collection.match(pattern);
  	var Arr = [];
  	for(var i in arr){
-      		 Arr.push(arr[i]);
+      		 Arr.push(parseInt.arr[i]);
     	}
  	return Arr;
- 	for(var j=0;j<Arr.length;j++){
- 			Number(Arr[j]);
- 		}
- 		return Arr;
+ 	
+ 	
 }
 
 module.exports = collect_all_even;
